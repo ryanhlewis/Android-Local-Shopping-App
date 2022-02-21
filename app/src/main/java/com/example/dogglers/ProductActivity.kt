@@ -15,34 +15,42 @@
 */
 package com.example.dogglers
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import com.example.dogglers.adapter.DogCardAdapter
+import com.example.dogglers.adapter.DogCardAdapter.*
 import com.example.dogglers.const.Layout
-import com.example.dogglers.databinding.ActivityHorizontalListBinding
+import com.example.dogglers.data.DataSource
+import com.example.dogglers.data.DataSource.dogs
+import com.example.dogglers.databinding.ActivityVerticalListBinding
 
-class HorizontalListActivity : AppCompatActivity() {
+class ProductActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityHorizontalListBinding
+    private lateinit var binding: ActivityVerticalListBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityHorizontalListBinding.inflate(layoutInflater)
+        binding = ActivityVerticalListBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.horizontalRecyclerView.adapter = DogCardAdapter(
+        // Set Item View
+        DataSource.chosenArray = DataSource.chosenProduct
+
+        binding.verticalRecyclerView.adapter = DogCardAdapter(
             applicationContext,
-            Layout.HORIZONTAL,
+            Layout.PRODUCT,
             DogCardAdapter.OnClickListener { photo ->
                 Toast.makeText(applicationContext, "${photo.name}", Toast.LENGTH_SHORT).show()
             }
         )
 
         // Specify fixed size to improve performance
-        binding.horizontalRecyclerView.setHasFixedSize(true)
+        binding.verticalRecyclerView.setHasFixedSize(true)
 
         // Enable up button for backward navigation
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
     }
 }

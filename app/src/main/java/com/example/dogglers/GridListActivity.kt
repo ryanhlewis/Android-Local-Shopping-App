@@ -20,6 +20,7 @@ import android.os.Bundle
 import android.widget.Toast
 import com.example.dogglers.adapter.DogCardAdapter
 import com.example.dogglers.const.Layout
+import com.example.dogglers.data.DataSource
 import com.example.dogglers.databinding.ActivityGridListBinding
 
 class GridListActivity : AppCompatActivity() {
@@ -30,6 +31,9 @@ class GridListActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityGridListBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        // Set Item View
+        DataSource.chosenArray = DataSource.dogs
 
         binding.gridRecyclerView.adapter = DogCardAdapter(
             applicationContext,

@@ -16,6 +16,7 @@
 package com.example.dogglers.adapter
 
 import android.content.Context
+import android.provider.ContactsContract
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -43,7 +44,7 @@ class DogCardAdapter(
         fun onClick(meme: Dog) = clickListener(meme)
     }
     // TODO: Initialize the data using the List found in data/DataSource
-    var dogs = DataSource.dogs
+    var dogs = DataSource.chosenArray
 
     /**
      * Initialize view elements
@@ -63,6 +64,7 @@ class DogCardAdapter(
         //  the vertical/horizontal list item should be used.
         var viewItem = R.layout.vertical_horizontal_list_item
 
+
         if(layout == Layout.GRID)
         viewItem = R.layout.grid_list_item
         else if(layout == Layout.PRODUCT)
@@ -80,6 +82,10 @@ class DogCardAdapter(
     override fun getItemCount(): Int = dogs.size // TODO: return the size of the data set instead of 0
 
     override fun onBindViewHolder(holder: DogCardViewHolder, position: Int) {
+
+        if(position >= dogs.size)
+            return
+
         // TODO: Get the data at the current position
         var currentDog = dogs[position]
         // TODO: Set the image resource for the current dog

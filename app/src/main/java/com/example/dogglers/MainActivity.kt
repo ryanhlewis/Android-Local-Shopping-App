@@ -80,7 +80,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun launchHorizontal() {
-        listIntent = Intent(this, HorizontalListActivity::class.java)
+        listIntent = Intent(this, ProductActivity::class.java)
         startActivity(listIntent)
     }
 

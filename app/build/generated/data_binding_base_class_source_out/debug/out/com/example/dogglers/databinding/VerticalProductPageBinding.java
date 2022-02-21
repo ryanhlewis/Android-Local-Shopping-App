@@ -4,6 +4,7 @@ package com.example.dogglers.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -20,6 +21,9 @@ public final class VerticalProductPageBinding implements ViewBinding {
   private final MaterialCardView rootView;
 
   @NonNull
+  public final Button AddToCart;
+
+  @NonNull
   public final TextView dogAge;
 
   @NonNull
@@ -34,10 +38,11 @@ public final class VerticalProductPageBinding implements ViewBinding {
   @NonNull
   public final ImageView dogPicture;
 
-  private VerticalProductPageBinding(@NonNull MaterialCardView rootView, @NonNull TextView dogAge,
-      @NonNull TextView dogAge2, @NonNull TextView dogHobby, @NonNull TextView dogName,
-      @NonNull ImageView dogPicture) {
+  private VerticalProductPageBinding(@NonNull MaterialCardView rootView, @NonNull Button AddToCart,
+      @NonNull TextView dogAge, @NonNull TextView dogAge2, @NonNull TextView dogHobby,
+      @NonNull TextView dogName, @NonNull ImageView dogPicture) {
     this.rootView = rootView;
+    this.AddToCart = AddToCart;
     this.dogAge = dogAge;
     this.dogAge2 = dogAge2;
     this.dogHobby = dogHobby;
@@ -72,6 +77,12 @@ public final class VerticalProductPageBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.AddToCart;
+      Button AddToCart = rootView.findViewById(id);
+      if (AddToCart == null) {
+        break missingId;
+      }
+
       id = R.id.dogAge;
       TextView dogAge = rootView.findViewById(id);
       if (dogAge == null) {
@@ -102,8 +113,8 @@ public final class VerticalProductPageBinding implements ViewBinding {
         break missingId;
       }
 
-      return new VerticalProductPageBinding((MaterialCardView) rootView, dogAge, dogAge2, dogHobby,
-          dogName, dogPicture);
+      return new VerticalProductPageBinding((MaterialCardView) rootView, AddToCart, dogAge, dogAge2,
+          dogHobby, dogName, dogPicture);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

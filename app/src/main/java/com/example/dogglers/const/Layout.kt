@@ -22,7 +22,7 @@ package com.example.dogglers.const
  */
 object Layout {
     val VERTICAL = 1
-    val HORIZONTAL = 2
+    val CART = 2
     val GRID = 3
     val PRODUCT = 4
 }

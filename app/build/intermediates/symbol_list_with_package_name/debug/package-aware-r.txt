@@ -2380,6 +2380,7 @@ drawable tzeitel
 drawable unknownwoman
 drawable zhangjiajie
 id ALT
+id AddToCart
 id BOTTOM_END
 id BOTTOM_START
 id CTRL

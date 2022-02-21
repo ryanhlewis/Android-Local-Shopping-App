@@ -35,12 +35,20 @@ object DataSource {
      * Add item "type" so items can be sorted easily in categories.
      *
      */
+    var chosenArray : MutableList<Dog> = mutableListOf()
 
-    val chosenProduct: MutableList<Dog> = mutableListOf()
+    var chosenProduct: MutableList<Dog> = mutableListOf()
 
-    val cart: MutableList<Dog> = mutableListOf()
+    var cart: MutableList<Dog> = mutableListOf(
+        Dog(
+            R.drawable.samsung21,
+            "Samsung Galaxy S21 FE 5G Cell Phone, Factory Unlocked Android Smartphone, 128GB, 120Hz Display, Pro Grade Camera, All Day Intelligent Battery, US Version, Olive",
+            "Sal's Tech Shop",
+            "450"
+        )
+    )
 
-    val dogs: List<Dog> = listOf(
+    val dogs: MutableList<Dog> = mutableListOf(
         Dog(
             R.drawable.samsung21,
             "Samsung Galaxy S21 FE 5G Cell Phone, Factory Unlocked Android Smartphone, 128GB, 120Hz Display, Pro Grade Camera, All Day Intelligent Battery, US Version, Olive",
