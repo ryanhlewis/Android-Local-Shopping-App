@@ -23,7 +23,7 @@ import com.example.dogglers.adapter.DogCardAdapter
 import com.example.dogglers.adapter.DogCardAdapter.*
 import com.example.dogglers.const.Layout
 import com.example.dogglers.data.DataSource
-import com.example.dogglers.data.DataSource.dogs
+import com.example.dogglers.data.DataSource.products
 import com.example.dogglers.databinding.ActivityVerticalListBinding
 
 class ProductActivity : AppCompatActivity() {

@@ -23,7 +23,7 @@ import android.widget.Toast
 import com.example.dogglers.adapter.DogCardAdapter
 import com.example.dogglers.const.Layout
 import com.example.dogglers.data.DataSource
-import com.example.dogglers.data.DataSource.dogs
+import com.example.dogglers.data.DataSource.products
 import com.example.dogglers.databinding.ActivityVerticalListBinding
 
 class VerticalListActivity : AppCompatActivity() {
@@ -36,7 +36,7 @@ class VerticalListActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         // Set Item View
-        DataSource.chosenArray = DataSource.dogs
+        DataSource.chosenArray = DataSource.products
 
         binding.verticalRecyclerView.adapter = DogCardAdapter(
             applicationContext,

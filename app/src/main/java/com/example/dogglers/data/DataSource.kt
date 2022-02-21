@@ -48,7 +48,7 @@ object DataSource {
         )
     )
 
-    val dogs: MutableList<Product> = mutableListOf(
+    val products: MutableList<Product> = mutableListOf(
         Product(
             R.drawable.samsung21,
             "Samsung Galaxy S21 FE 5G Cell Phone, Factory Unlocked Android Smartphone, 128GB, 120Hz Display, Pro Grade Camera, All Day Intelligent Battery, US Version, Olive",

@@ -33,7 +33,7 @@ class GridListActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         // Set Item View
-        DataSource.chosenArray = DataSource.dogs
+        DataSource.chosenArray = DataSource.products
 
         binding.gridRecyclerView.adapter = DogCardAdapter(
             applicationContext,
