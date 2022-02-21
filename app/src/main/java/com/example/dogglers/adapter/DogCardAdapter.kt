@@ -26,7 +26,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.dogglers.R
 import com.example.dogglers.const.Layout
 import com.example.dogglers.data.DataSource
-import com.example.dogglers.model.Dog
+import com.example.dogglers.model.Product
 
 /**
  * Adapter to inflate the appropriate list item layout and populate the view with information
@@ -40,8 +40,8 @@ class DogCardAdapter(
     private val onClickListener: OnClickListener
     ): RecyclerView.Adapter<DogCardAdapter.DogCardViewHolder>() {
 
-    class OnClickListener(val clickListener: (meme: Dog) -> Unit) {
-        fun onClick(meme: Dog) = clickListener(meme)
+    class OnClickListener(val clickListener: (meme: Product) -> Unit) {
+        fun onClick(meme: Product) = clickListener(meme)
     }
     // TODO: Initialize the data using the List found in data/DataSource
     var dogs = DataSource.chosenArray
@@ -100,10 +100,10 @@ class DogCardAdapter(
         //  resources?.getString(R.string.dog_hobbies, dog.hobbies)
 
         // TODO: Set the text for the current dog's age
-        holder.dogAge.setText(resources?.getString(R.string.dog_age, currentDog.age))
+        holder.dogAge.setText(resources?.getString(R.string.dog_age, currentDog.store))
 
         // TODO: Set the text for the current dog's hobbies
-        holder.dogHobby.setText(resources?.getString(R.string.dog_hobbies, currentDog.hobbies))
+        holder.dogHobby.setText(resources?.getString(R.string.dog_hobbies, currentDog.price))
 
         // Set clickable elements
         holder.itemView.setOnClickListener {

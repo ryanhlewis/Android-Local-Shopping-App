@@ -16,7 +16,7 @@
 package com.example.dogglers.data
 
 import com.example.dogglers.R
-import com.example.dogglers.model.Dog
+import com.example.dogglers.model.Product
 
 /**
  * An object to generate a static list of dogs
@@ -35,12 +35,12 @@ object DataSource {
      * Add item "type" so items can be sorted easily in categories.
      *
      */
-    var chosenArray : MutableList<Dog> = mutableListOf()
+    var chosenArray : MutableList<Product> = mutableListOf()
 
-    var chosenProduct: MutableList<Dog> = mutableListOf()
+    var chosenProduct: MutableList<Product> = mutableListOf()
 
-    var cart: MutableList<Dog> = mutableListOf(
-        Dog(
+    var cart: MutableList<Product> = mutableListOf(
+        Product(
             R.drawable.samsung21,
             "Samsung Galaxy S21 FE 5G Cell Phone, Factory Unlocked Android Smartphone, 128GB, 120Hz Display, Pro Grade Camera, All Day Intelligent Battery, US Version, Olive",
             "Sal's Tech Shop",
@@ -48,38 +48,38 @@ object DataSource {
         )
     )
 
-    val dogs: MutableList<Dog> = mutableListOf(
-        Dog(
+    val dogs: MutableList<Product> = mutableListOf(
+        Product(
             R.drawable.samsung21,
             "Samsung Galaxy S21 FE 5G Cell Phone, Factory Unlocked Android Smartphone, 128GB, 120Hz Display, Pro Grade Camera, All Day Intelligent Battery, US Version, Olive",
             "Sal's Tech Shop",
             "450"
         ),
-        Dog(
+        Product(
             R.drawable.iphone11,
             "Apple iPhone 11 Pro, US Version, 64GB, Silver - Unlocked",
             "Sal's Tech Shop",
             "430"
         ),
-        Dog(
+        Product(
             R.drawable.theevery,
             "The Every: A Novel by Dave Eggers, Award-Winning Author of The Circle",
             "Book Haven",
             "10"
         ),
-        Dog(
+        Product(
             R.drawable.unknownwoman,
             "Portrait of an Unknown Woman: A Novel by Daniel Silva",
             "Book Haven",
             "15"
         ),
-        Dog(
+        Product(
             R.drawable.boots,
             "Hand-Crafted Custom Fit Boots, Weatherized & Iron Toe Tips Included",
             "Shoe Creator",
             "235"
         ),
-        Dog(
+        Product(
             R.drawable.dressshoes,
             "Hand-Crafted Crocodile-Pattern Leather Dress Shoes",
             "Shoe Creator",
