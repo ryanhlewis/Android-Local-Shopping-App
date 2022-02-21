@@ -27,6 +27,12 @@
 
         <activity android:name=".IntroActivity">
         </activity>
+        <activity android:name=".CartActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
         <activity android:name=".VerticalListActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
