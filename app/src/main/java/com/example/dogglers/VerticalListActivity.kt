@@ -15,11 +15,14 @@
 */
 package com.example.dogglers
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import com.example.dogglers.adapter.DogCardAdapter
 import com.example.dogglers.const.Layout
+import com.example.dogglers.data.DataSource
+import com.example.dogglers.data.DataSource.dogs
 import com.example.dogglers.databinding.ActivityVerticalListBinding
 
 class VerticalListActivity : AppCompatActivity() {
@@ -35,6 +38,10 @@ class VerticalListActivity : AppCompatActivity() {
             applicationContext,
             Layout.VERTICAL,
             DogCardAdapter.OnClickListener { photo ->
+                //DogCardAdapter.dogs? = DataSource.chosenProduct;
+                //DataSource.chosenProduct.add(photo)
+                //var listIntent = Intent(this, CartActivity::class.java)
+                //startActivity(listIntent)
                 Toast.makeText(applicationContext, "${photo.name}", Toast.LENGTH_SHORT).show()
             }
         )

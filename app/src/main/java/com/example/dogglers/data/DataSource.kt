@@ -36,6 +36,10 @@ object DataSource {
      *
      */
 
+    val chosenProduct: MutableList<Dog> = mutableListOf()
+
+    val cart: MutableList<Dog> = mutableListOf()
+
     val dogs: List<Dog> = listOf(
         Dog(
             R.drawable.samsung21,

@@ -65,6 +65,8 @@ class DogCardAdapter(
 
         if(layout == Layout.GRID)
         viewItem = R.layout.grid_list_item
+        else if(layout == Layout.PRODUCT)
+            viewItem = R.layout.vertical_product_page
 
         // TODO Inflate the layout
         val adapterLayout = LayoutInflater.from(parent.context)
