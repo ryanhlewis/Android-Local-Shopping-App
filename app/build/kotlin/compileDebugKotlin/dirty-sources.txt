@@ -1,0 +1,13 @@
+C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\java\com\example\dogglers\adapter\DogCardAdapter.kt
+C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\java\com\example\dogglers\BooksActivity.kt
+C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\java\com\example\dogglers\CartActivity.kt
+C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\java\com\example\dogglers\const\Layout.kt
+C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\java\com\example\dogglers\data\DataSource.kt
+C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\java\com\example\dogglers\GridListActivity.kt
+C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\java\com\example\dogglers\IntroActivity.kt
+C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\java\com\example\dogglers\MainActivity.kt
+C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\java\com\example\dogglers\model\Dog.kt
+C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\java\com\example\dogglers\PhonesActivity.kt
+C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\java\com\example\dogglers\ProductActivity.kt
+C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\java\com\example\dogglers\ShoesActivity.kt
+C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\java\com\example\dogglers\VerticalListActivity.kt
