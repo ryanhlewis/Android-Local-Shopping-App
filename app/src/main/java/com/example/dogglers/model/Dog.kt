@@ -16,13 +16,14 @@
 package com.example.dogglers.model
 
 import androidx.annotation.DrawableRes
+import androidx.annotation.StringRes
 
 /**
  * A data class to represent the information presented in the dog card
  */
 data class Product(
     @DrawableRes val imageResourceId: Int,
-    val name: String,
-    val store: String,
-    val price: String
+    val name: Int,
+    val store: Int,
+    val price: Int
 )

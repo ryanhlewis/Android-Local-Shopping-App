@@ -20,4 +20,79 @@
     <string name="vertical">Vertical</string>
     <string name="horizontal">Horizontal</string>
     <string name="grid">Grid</string>
+
+    // SHOES
+    <string name="nike">Nike: VaporMax</string>
+    <string name="hoka">HOKE Bondi 7</string>
+    <string name="new_balance">New Balance Fresh Foam</string>
+    <string name="boots">Tecovas</string>
+    <string name="dress_shoes">Calvin Klein Black</string>
+    <string name="nike_price">$199.99</string>
+    <string name="hoka_price">$139.99</string>
+    <string name="new_balance_price">$84.99</string>
+    <string name="boots_price">$239.99</string>
+    <string name="dress_shoes_price">$99.99</string>
+    <string name="nike_store">True Shoes</string>
+    <string name="hoka_store">Academies</string>
+    <string name="new_balance_store">Susan\'s Shoes</string>
+    <string name="boots_store">Academies</string>
+    <string name="dress_shoes_store">True Shoes</string>
+
+    // PHONES
+    <string name="iphone11">IPhone 11 Pro</string>
+    <string name="iphone13">IPhone 13 Pro</string>
+    <string name="galaxy">Galaxy Pixel6</string>
+    <string name="samsung21">Samsung S21</string>
+    <string name="samsung22">Samsung s22</string>
+    <string name="iphone11_price">$319.99</string>
+    <string name="iphone13_price">$799.99</string>
+    <string name="galazy_price">$899.99</string>
+    <string name="samsung21_price">$799.99</string>
+    <string name="samsung22_price">$699.99</string>
+    <string name="iphone11_store">Cells for Less</string>
+    <string name="iphone13_store">Tristan\'s Tech and More</string>
+    <string name="galaxy_store">Calls for Less</string>
+    <string name="samsung21_store">Tristan\'s Tech and More</string>
+    <string name="samsung22_store">Cells for Less</string>
+
+    // BOOKS
+    <string name="wind">Gone with the Wind</string>
+    <string name="unknownwoman">The Unknown Woman</string>
+    <string name="the_every">The Every</string>
+    <string name="mockingbird">How to Kill a Mockingbird</string>
+    <string name="pride">Pride and Prejudice</string>
+    <string name="wind_price">$15.99</string>
+    <string name="unknownwoman_price">$10.99</string>
+    <string name="the_every_price">$11.99</string>
+    <string name="mockingbird_price">$19.99</string>
+    <string name="pride_price">$15.99</string>
+    <string name="wind_store">Barnes and Mobile</string>
+    <string name="unknownwoman_store">Books and More</string>
+    <string name="the_every_store">Book haven</string>
+    <string name="mockingbird_store">Books and More</string>
+    <string name="pride_store">Barnes and Mobile</string>
+
+    <string name="samsumg21_2">Samsung Galaxy S21 FE 5G Cell Phone, Factory Unlocked Android Smartphone, 128GB, 120Hz Display, Pro Grade Camera, All Day Intelligent Battery, US Version, Olive</string>
+    <string name ="samsung21_2_store">Sal\'s Tech Shop</string>
+    <string name ="samsung21_2_price">"$450.99"</string>
+
+    <string name="iphone11_2">Apple iPhone 11 Pro, US Version, 64GB, Silver - Unlocked</string>
+    <string name="iphone11_2_store">Sal\'s Tech Shop</string>
+    <string name="iphone11_2_price">$430.99"</string>
+
+    <string name="theevery_2">The Every: A Novel by Dave Eggers, Award-Winning Author of The Circle</string>
+    <string name="theevery_2_store">Book Haven</string>
+    <string name="theevery_2_price">$10.99"</string>
+
+    <string name="unknownwoman_2">Portrait of an Unknown Woman: A Novel by Daniel Silva</string>
+    <string name="unknownwoman_2_store">Book Haven</string>
+    <string name="unknownwoman_2_price">$15.99</string>
+
+    <string name="boots_2">Hand-Crafted Custom Fit Boots, Weatherized and Iron Toe Tips Included</string>
+    <string name="boots_2_store">Shoe Creator</string>
+    <string name="boots_2_price">$235.99</string>
+
+    <string name="dressshoes_2">Hand-Crafted Crocodile-Pattern Leather Dress Shoes</string>
+    <string name="dressshoes_2_store">Shoe Creator</string>
+    <string name="dressshoes_2_price">$130.99</string>
 </resources>

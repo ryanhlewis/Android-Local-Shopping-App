@@ -35,6 +35,21 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.Dogglers" >
+        <activity android:name="com.example.dogglers.ShoesActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name="com.example.dogglers.PhonesActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name="com.example.dogglers.BooksActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
         <activity android:name="com.example.dogglers.IntroActivity" >
         </activity>
         <activity android:name="com.example.dogglers.CartActivity" >
@@ -47,7 +62,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name="com.example.dogglers.HorizontalListActivity" >
+        <activity android:name="com.example.dogglers.ProductActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />

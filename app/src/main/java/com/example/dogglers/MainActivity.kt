@@ -61,6 +61,8 @@ class MainActivity : AppCompatActivity() {
         // Launch the GridListActivity on gridBtn click
         binding.gridBtn.setOnClickListener { launchGrid() }
 
+        binding.phonesButton.setOnClickListener { launchShoes() }
+
 
     }
 
@@ -80,12 +82,17 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun launchHorizontal() {
-        listIntent = Intent(this, ProductActivity::class.java)
+        listIntent = Intent(this, PhonesActivity::class.java)
         startActivity(listIntent)
     }
 
     private fun launchGrid() {
-        listIntent = Intent(this, GridListActivity::class.java)
+        listIntent = Intent(this, BooksActivity::class.java)
         startActivity(listIntent)
     }
+    private fun launchShoes() {
+        listIntent = Intent(this, ShoesActivity::class.java)
+        startActivity(listIntent)
+    }
+
 }
