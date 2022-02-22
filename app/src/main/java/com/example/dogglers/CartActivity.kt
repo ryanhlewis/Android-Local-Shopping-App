@@ -28,7 +28,6 @@ import com.example.dogglers.databinding.ActivityVerticalListBinding
 import com.example.dogglers.model.Product
 
 class CartActivity : AppCompatActivity() {
-
     private lateinit var binding: ActivityVerticalListBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {

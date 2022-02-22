@@ -88,4 +88,5 @@ class MainActivity : AppCompatActivity() {
         listIntent = Intent(this, GridListActivity::class.java)
         startActivity(listIntent)
     }
+
 }
