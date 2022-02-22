@@ -17,7 +17,6 @@ package com.example.dogglers
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
 import com.example.dogglers.adapter.DogCardAdapter
 import com.example.dogglers.const.Layout
 import com.example.dogglers.data.DataSource
@@ -39,7 +38,6 @@ class GridListActivity : AppCompatActivity() {
             applicationContext,
             Layout.GRID,
             DogCardAdapter.OnClickListener { photo ->
-                Toast.makeText(applicationContext, "${photo.name}", Toast.LENGTH_SHORT).show()
             }
         )
 

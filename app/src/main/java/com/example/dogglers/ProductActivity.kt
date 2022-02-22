@@ -46,7 +46,6 @@ class ProductActivity : AppCompatActivity() {
             applicationContext,
             Layout.PRODUCT,
             DogCardAdapter.OnClickListener { photo ->
-                Toast.makeText(applicationContext, "${photo.name}", Toast.LENGTH_SHORT).show()
             }
         )
         // Specify fixed size to improve performance

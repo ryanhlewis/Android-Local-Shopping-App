@@ -19,7 +19,7 @@ package com.example.dogglers
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
+
 import com.example.dogglers.adapter.DogCardAdapter
 import com.example.dogglers.const.Layout
 import com.example.dogglers.data.DataSource
@@ -46,7 +46,6 @@ class VerticalListActivity : AppCompatActivity() {
                     DataSource.chosenProduct.add(photo)
                     val listIntent = Intent(this, ProductActivity::class.java)
                     startActivity(listIntent)
-                    Toast.makeText(applicationContext, "${photo.name}", Toast.LENGTH_SHORT).show()
             }
         )
         // Specify fixed size to improve performance

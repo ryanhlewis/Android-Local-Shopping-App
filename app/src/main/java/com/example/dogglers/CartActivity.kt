@@ -20,7 +20,6 @@ import android.os.Bundle
 import android.provider.ContactsContract
 import android.view.View
 import android.widget.Button
-import android.widget.Toast
 import com.example.dogglers.adapter.DogCardAdapter
 import com.example.dogglers.const.Layout
 import com.example.dogglers.data.DataSource
@@ -41,7 +40,6 @@ class CartActivity : AppCompatActivity() {
             applicationContext,
             Layout.CART,
             DogCardAdapter.OnClickListener { photo ->
-                Toast.makeText(applicationContext, "${photo.name}", Toast.LENGTH_SHORT).show()
             }
         )
         // Specify fixed size to improve performance
