@@ -26,7 +26,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="620dp">
+        android:layout_height="match_parent">
 
         <!-- TODO: Note that, unlike the grid view list, one card in the vertical and horizontal
                lists effectively take up the width of the screen. This means you have more
@@ -44,47 +44,63 @@
 
         <TextView
             android:id="@+id/dogName"
-            android:layout_width="394dp"
-            android:layout_height="75dp"
+            android:layout_width="198dp"
+            android:layout_height="53dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
             android:text="Tzeitel"
             android:textAppearance="?attr/textAppearanceHeadline6"
             android:textSize="14sp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/dogPicture" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/dogPicture"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/dogAge"
-            android:layout_width="184dp"
-            android:layout_height="25dp"
+            android:layout_width="176dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
             android:text="Age: 7"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/dogHobby" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/dogPicture"
+            app:layout_constraintTop_toBottomOf="@id/dogName"
+            app:layout_constraintVertical_bias="0.47" />
 
         <TextView
             android:id="@+id/dogAge2"
             android:layout_width="174dp"
             android:layout_height="11dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
             android:text="FREE Shipping"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textSize="8sp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/dogAge" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/dogPicture"
+            app:layout_constraintTop_toBottomOf="@id/dogName"
+            app:layout_constraintVertical_bias="1.0" />
 
         <TextView
             android:id="@+id/dogHobby"
-            android:layout_width="219dp"
-            android:layout_height="32dp"
+            android:layout_width="204dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
             android:text="Hobbies: sunbathing"
             android:textAlignment="viewStart"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/dogName" />
+            app:layout_constraintStart_toEndOf="@+id/dogPicture"
+            app:layout_constraintTop_toBottomOf="@id/dogName" />
 
         <ImageView
             android:id="@+id/dogPicture"
-            android:layout_width="396dp"
-            android:layout_height="285dp"
+            android:layout_width="133dp"
+            android:layout_height="125dp"
             android:scaleType="centerInside"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -95,16 +111,17 @@
             app:srcCompat="@drawable/tzeitel" />
 
         <Button
-            android:id="@+id/AddToCart"
+            android:id="@+id/trash"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="130dp"
-            android:layout_marginTop="31dp"
-            android:layout_marginEnd="131dp"
-            android:text="Add to Cart"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="2dp"
+            android:text="Remove"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/dogAge2" />
+            app:layout_constraintStart_toEndOf="@+id/dogAge"
+            app:layout_constraintTop_toBottomOf="@+id/dogHobby" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

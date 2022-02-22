@@ -16,14 +16,15 @@
 package com.example.dogglers.adapter
 
 import android.content.Context
-import android.provider.ContactsContract
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.dogglers.R
+import com.example.dogglers.*
 import com.example.dogglers.const.Layout
 import com.example.dogglers.data.DataSource
 import com.example.dogglers.model.Product
@@ -43,32 +44,42 @@ class DogCardAdapter(
     class OnClickListener(val clickListener: (meme: Product) -> Unit) {
         fun onClick(meme: Product) = clickListener(meme)
     }
+
     // TODO: Initialize the data using the List found in data/DataSource
     var dogs = DataSource.chosenArray
 
     /**
      * Initialize view elements
      */
-    class DogCardViewHolder(view: View): RecyclerView.ViewHolder(view) {
+    class DogCardViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         // TODO: Declare and initialize all of the list item UI components
         val dogName: TextView = view.findViewById(R.id.dogName)
         val dogAge: TextView = view.findViewById(R.id.dogAge)
         val dogHobby: TextView = view.findViewById(R.id.dogHobby)
         val dogPicture: ImageView = view.findViewById(R.id.dogPicture)
 
+        val dogButton: Button? = view.findViewById(R.id.AddToCart)
+
+        val removeButton: Button? = view.findViewById(R.id.trash)
+
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): DogCardViewHolder {
+    override fun onCreateViewHolder(
+        parent: ViewGroup,
+        viewType: Int
+    ): DogCardAdapter.DogCardViewHolder {
         // TODO: Use a conditional to determine the layout type and set it accordingly.
         //  if the layout variable is Layout.GRID the grid list item should be used. Otherwise the
         //  the vertical/horizontal list item should be used.
         var viewItem = R.layout.vertical_horizontal_list_item
 
 
-        if(layout == Layout.GRID)
-        viewItem = R.layout.grid_list_item
-        else if(layout == Layout.PRODUCT)
+        if (layout == Layout.GRID)
+            viewItem = R.layout.grid_list_item
+        else if (layout == Layout.PRODUCT)
             viewItem = R.layout.vertical_product_page
+        else if (layout == Layout.CART)
+            viewItem = R.layout.itemremove
 
         // TODO Inflate the layout
         val adapterLayout = LayoutInflater.from(parent.context)
@@ -79,11 +90,12 @@ class DogCardAdapter(
         return DogCardViewHolder(adapterLayout)
     }
 
-    override fun getItemCount(): Int = dogs.size // TODO: return the size of the data set instead of 0
+    override fun getItemCount(): Int =
+        dogs.size // TODO: return the size of the data set instead of 0
 
     override fun onBindViewHolder(holder: DogCardViewHolder, position: Int) {
 
-        if(position >= dogs.size)
+        if (position >= dogs.size)
             return
 
         // TODO: Get the data at the current position
@@ -105,6 +117,20 @@ class DogCardAdapter(
         // TODO: Set the text for the current dog's hobbies
         holder.dogHobby.setText(resources?.getString(R.string.dog_hobbies, currentDog.price))
 
+        holder.dogButton?.setOnClickListener() {
+            DataSource.cart.add(currentDog)
+        }
+
+        holder.removeButton?.setOnClickListener() {
+            DataSource.cart.remove(currentDog)
+            notifyItemRemoved(position)
+            //val listIntent = Intent(this, GridListActivity::class.java)
+            //startActivity(listIntent)
+
+
+
+
+        }
         // Set clickable elements
         holder.itemView.setOnClickListener {
             onClickListener.onClick(currentDog)

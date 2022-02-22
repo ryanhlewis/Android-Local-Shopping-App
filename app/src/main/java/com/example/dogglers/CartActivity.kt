@@ -17,14 +17,16 @@ package com.example.dogglers
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
+import android.provider.ContactsContract
+import android.view.View
+import android.widget.Button
 import com.example.dogglers.adapter.DogCardAdapter
 import com.example.dogglers.const.Layout
 import com.example.dogglers.data.DataSource
 import com.example.dogglers.databinding.ActivityVerticalListBinding
+import com.example.dogglers.model.Product
 
 class CartActivity : AppCompatActivity() {
-
     private lateinit var binding: ActivityVerticalListBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -34,15 +36,12 @@ class CartActivity : AppCompatActivity() {
 
         // Set Item View
         DataSource.chosenArray = DataSource.cart
-
         binding.verticalRecyclerView.adapter = DogCardAdapter(
             applicationContext,
-            Layout.VERTICAL,
+            Layout.CART,
             DogCardAdapter.OnClickListener { photo ->
-                Toast.makeText(applicationContext, "${photo.name}", Toast.LENGTH_SHORT).show()
             }
         )
-
         // Specify fixed size to improve performance
         binding.verticalRecyclerView.setHasFixedSize(true)
 

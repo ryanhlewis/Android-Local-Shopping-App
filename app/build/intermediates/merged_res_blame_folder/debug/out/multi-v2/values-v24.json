@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/chadgraham/AndroidStudioProjects/android-local-shopping-app/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+            "outputFile": "/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/Users/chadgraham/.gradle/caches/transforms-2/files-2.1/147a6e7f9f7fc8aa5d9c7d6dea93c4ed/appcompat-1.2.0/res/values-v24/values-v24.xml",
+                    "source": "/Users/kaidencamazine/.gradle/caches/transforms-2/files-2.1/147a6e7f9f7fc8aa5d9c7d6dea93c4ed/appcompat-1.2.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/chadgraham/.gradle/caches/transforms-2/files-2.1/a049b18ea332f684ca2912be903ac8b8/media-1.0.0/res/values-v24/values-v24.xml",
+                    "source": "/Users/kaidencamazine/.gradle/caches/transforms-2/files-2.1/a049b18ea332f684ca2912be903ac8b8/media-1.0.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
