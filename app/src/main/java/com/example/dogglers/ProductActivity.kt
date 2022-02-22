@@ -18,13 +18,17 @@ package com.example.dogglers
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import android.widget.Button
 import android.widget.Toast
 import com.example.dogglers.adapter.DogCardAdapter
 import com.example.dogglers.adapter.DogCardAdapter.*
 import com.example.dogglers.const.Layout
 import com.example.dogglers.data.DataSource
+import com.example.dogglers.data.DataSource.chosenProduct
 import com.example.dogglers.data.DataSource.products
 import com.example.dogglers.databinding.ActivityVerticalListBinding
+import com.example.dogglers.model.Product
 
 class ProductActivity : AppCompatActivity() {
 
@@ -45,7 +49,6 @@ class ProductActivity : AppCompatActivity() {
                 Toast.makeText(applicationContext, "${photo.name}", Toast.LENGTH_SHORT).show()
             }
         )
-
         // Specify fixed size to improve performance
         binding.verticalRecyclerView.setHasFixedSize(true)
 
@@ -53,4 +56,5 @@ class ProductActivity : AppCompatActivity() {
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
     }
+
 }

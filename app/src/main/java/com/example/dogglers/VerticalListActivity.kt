@@ -44,13 +44,11 @@ class VerticalListActivity : AppCompatActivity() {
             DogCardAdapter.OnClickListener { photo ->
                     DataSource.chosenProduct.clear()
                     DataSource.chosenProduct.add(photo)
-                    var listIntent = Intent(this, ProductActivity::class.java)
+                    val listIntent = Intent(this, ProductActivity::class.java)
                     startActivity(listIntent)
                     Toast.makeText(applicationContext, "${photo.name}", Toast.LENGTH_SHORT).show()
-
             }
         )
-
         // Specify fixed size to improve performance
         binding.verticalRecyclerView.setHasFixedSize(true)
 

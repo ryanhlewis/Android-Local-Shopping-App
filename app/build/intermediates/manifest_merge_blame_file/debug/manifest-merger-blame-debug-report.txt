@@ -21,146 +21,146 @@
 21
 22    <uses-sdk
 23        android:minSdkVersion="21"
-23-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml
+23-->/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/AndroidManifest.xml
 24        android:targetSdkVersion="30" />
-24-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml
+24-->/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/AndroidManifest.xml
 25
 26    <uses-permission android:name="android.permission.REORDER_TASKS" />
-26-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:25:5-72
-26-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:25:22-69
+26-->[androidx.fragment:fragment-testing:1.3.3] /Users/kaidencamazine/.gradle/caches/transforms-2/files-2.1/dc0e3c6b17f8575e4aa57edca9e365d5/jetified-fragment-testing-1.3.3/AndroidManifest.xml:25:5-72
+26-->[androidx.fragment:fragment-testing:1.3.3] /Users/kaidencamazine/.gradle/caches/transforms-2/files-2.1/dc0e3c6b17f8575e4aa57edca9e365d5/jetified-fragment-testing-1.3.3/AndroidManifest.xml:25:22-69
 27
 28    <application
-28-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:20:5-58:19
+28-->/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/AndroidManifest.xml:20:5-58:19
 29        android:allowBackup="true"
-29-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:21:9-35
+29-->/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/AndroidManifest.xml:21:9-35
 30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-30-->[androidx.core:core:1.3.2] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\ee64c205f53f42c956b9de532d024878\core-1.3.2\AndroidManifest.xml:24:18-86
+30-->[androidx.core:core:1.3.2] /Users/kaidencamazine/.gradle/caches/transforms-2/files-2.1/ee64c205f53f42c956b9de532d024878/core-1.3.2/AndroidManifest.xml:24:18-86
 31        android:debuggable="true"
 32        android:icon="@mipmap/ic_launcher"
-32-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:22:9-43
+32-->/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/AndroidManifest.xml:22:9-43
 33        android:label="@string/app_name"
-33-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:23:9-41
+33-->/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/AndroidManifest.xml:23:9-41
 34        android:roundIcon="@mipmap/ic_launcher_round"
-34-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:24:9-54
+34-->/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/AndroidManifest.xml:24:9-54
 35        android:supportsRtl="true"
-35-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:25:9-35
+35-->/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/AndroidManifest.xml:25:9-35
 36        android:testOnly="true"
 37        android:theme="@style/Theme.Dogglers" >
-37-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:26:9-46
+37-->/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/AndroidManifest.xml:26:9-46
 38        <activity android:name="com.example.dogglers.IntroActivity" >
-38-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:28:9-29:20
-38-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:28:19-48
+38-->/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/AndroidManifest.xml:28:9-29:20
+38-->/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/AndroidManifest.xml:28:19-48
 39        </activity>
 40        <activity android:name="com.example.dogglers.CartActivity" >
-40-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:30:9-34:20
-40-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:30:19-47
+40-->/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/AndroidManifest.xml:30:9-34:20
+40-->/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/AndroidManifest.xml:30:19-47
 41            <meta-data
-41-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:31:13-33:49
+41-->/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/AndroidManifest.xml:31:13-33:49
 42                android:name="android.support.PARENT_ACTIVITY"
-42-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:32:17-63
+42-->/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/AndroidManifest.xml:32:17-63
 43                android:value=".MainActivity" />
-43-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:33:17-46
+43-->/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/AndroidManifest.xml:33:17-46
 44        </activity>
 45        <activity android:name="com.example.dogglers.VerticalListActivity" >
-45-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:36:9-40:20
-45-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:36:19-55
+45-->/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/AndroidManifest.xml:36:9-40:20
+45-->/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/AndroidManifest.xml:36:19-55
 46            <meta-data
-46-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:31:13-33:49
+46-->/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/AndroidManifest.xml:31:13-33:49
 47                android:name="android.support.PARENT_ACTIVITY"
-47-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:32:17-63
+47-->/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/AndroidManifest.xml:32:17-63
 48                android:value=".MainActivity" />
-48-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:33:17-46
+48-->/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/AndroidManifest.xml:33:17-46
 49        </activity>
-50        <activity android:name="com.example.dogglers.HorizontalListActivity" >
-50-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:41:9-45:20
-50-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:41:19-57
+50        <activity android:name="com.example.dogglers.ProductActivity" >
+50-->/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/AndroidManifest.xml:41:9-45:20
+50-->/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/AndroidManifest.xml:41:19-50
 51            <meta-data
-51-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:31:13-33:49
+51-->/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/AndroidManifest.xml:31:13-33:49
 52                android:name="android.support.PARENT_ACTIVITY"
-52-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:32:17-63
+52-->/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/AndroidManifest.xml:32:17-63
 53                android:value=".MainActivity" />
-53-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:33:17-46
+53-->/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/AndroidManifest.xml:33:17-46
 54        </activity>
 55        <activity android:name="com.example.dogglers.GridListActivity" >
-55-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:46:9-50:20
-55-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:46:19-51
+55-->/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/AndroidManifest.xml:46:9-50:20
+55-->/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/AndroidManifest.xml:46:19-51
 56            <meta-data
-56-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:31:13-33:49
+56-->/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/AndroidManifest.xml:31:13-33:49
 57                android:name="android.support.PARENT_ACTIVITY"
-57-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:32:17-63
+57-->/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/AndroidManifest.xml:32:17-63
 58                android:value=".MainActivity" />
-58-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:33:17-46
+58-->/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/AndroidManifest.xml:33:17-46
 59        </activity>
 60        <activity android:name="com.example.dogglers.MainActivity" >
-60-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:51:9-57:20
-60-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:51:19-47
+60-->/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/AndroidManifest.xml:51:9-57:20
+60-->/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/AndroidManifest.xml:51:19-47
 61            <intent-filter>
-61-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:52:13-56:29
+61-->/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/AndroidManifest.xml:52:13-56:29
 62                <action android:name="android.intent.action.MAIN" />
-62-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:53:17-69
-62-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:53:25-66
+62-->/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/AndroidManifest.xml:53:17-69
+62-->/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/AndroidManifest.xml:53:25-66
 63
 64                <category android:name="android.intent.category.LAUNCHER" />
-64-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:55:17-77
-64-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:55:27-74
+64-->/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/AndroidManifest.xml:55:17-77
+64-->/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/AndroidManifest.xml:55:27-74
 65            </intent-filter>
 66        </activity>
 67        <activity
-67-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:28:9-37:20
+67-->[androidx.fragment:fragment-testing:1.3.3] /Users/kaidencamazine/.gradle/caches/transforms-2/files-2.1/dc0e3c6b17f8575e4aa57edca9e365d5/jetified-fragment-testing-1.3.3/AndroidManifest.xml:28:9-37:20
 68            android:name="androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity"
-68-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:29:13-96
+68-->[androidx.fragment:fragment-testing:1.3.3] /Users/kaidencamazine/.gradle/caches/transforms-2/files-2.1/dc0e3c6b17f8575e4aa57edca9e365d5/jetified-fragment-testing-1.3.3/AndroidManifest.xml:29:13-96
 69            android:exported="true"
-69-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:30:13-36
+69-->[androidx.fragment:fragment-testing:1.3.3] /Users/kaidencamazine/.gradle/caches/transforms-2/files-2.1/dc0e3c6b17f8575e4aa57edca9e365d5/jetified-fragment-testing-1.3.3/AndroidManifest.xml:30:13-36
 70            android:multiprocess="true"
-70-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:31:13-40
+70-->[androidx.fragment:fragment-testing:1.3.3] /Users/kaidencamazine/.gradle/caches/transforms-2/files-2.1/dc0e3c6b17f8575e4aa57edca9e365d5/jetified-fragment-testing-1.3.3/AndroidManifest.xml:31:13-40
 71            android:taskAffinity=""
-71-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:32:13-36
+71-->[androidx.fragment:fragment-testing:1.3.3] /Users/kaidencamazine/.gradle/caches/transforms-2/files-2.1/dc0e3c6b17f8575e4aa57edca9e365d5/jetified-fragment-testing-1.3.3/AndroidManifest.xml:32:13-36
 72            android:theme="@style/FragmentScenarioEmptyFragmentActivityTheme" >
-72-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:33:13-78
+72-->[androidx.fragment:fragment-testing:1.3.3] /Users/kaidencamazine/.gradle/caches/transforms-2/files-2.1/dc0e3c6b17f8575e4aa57edca9e365d5/jetified-fragment-testing-1.3.3/AndroidManifest.xml:33:13-78
 73            <intent-filter>
-73-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:34:13-36:29
+73-->[androidx.fragment:fragment-testing:1.3.3] /Users/kaidencamazine/.gradle/caches/transforms-2/files-2.1/dc0e3c6b17f8575e4aa57edca9e365d5/jetified-fragment-testing-1.3.3/AndroidManifest.xml:34:13-36:29
 74                <action android:name="android.intent.action.MAIN" />
-74-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:53:17-69
-74-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:53:25-66
+74-->/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/AndroidManifest.xml:53:17-69
+74-->/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/AndroidManifest.xml:53:25-66
 75            </intent-filter>
 76        </activity>
 77        <activity
-77-->[androidx.test:core:1.3.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\73d0678ae04aa1970553ff6f2875e22a\jetified-core-1.3.0\AndroidManifest.xml:27:9-33:20
+77-->[androidx.test:core:1.3.0] /Users/kaidencamazine/.gradle/caches/transforms-2/files-2.1/73d0678ae04aa1970553ff6f2875e22a/jetified-core-1.3.0/AndroidManifest.xml:27:9-33:20
 78            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
-78-->[androidx.test:core:1.3.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\73d0678ae04aa1970553ff6f2875e22a\jetified-core-1.3.0\AndroidManifest.xml:28:13-99
+78-->[androidx.test:core:1.3.0] /Users/kaidencamazine/.gradle/caches/transforms-2/files-2.1/73d0678ae04aa1970553ff6f2875e22a/jetified-core-1.3.0/AndroidManifest.xml:28:13-99
 79            android:theme="@android:style/Theme" >
-79-->[androidx.test:core:1.3.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\73d0678ae04aa1970553ff6f2875e22a\jetified-core-1.3.0\AndroidManifest.xml:29:13-49
+79-->[androidx.test:core:1.3.0] /Users/kaidencamazine/.gradle/caches/transforms-2/files-2.1/73d0678ae04aa1970553ff6f2875e22a/jetified-core-1.3.0/AndroidManifest.xml:29:13-49
 80            <intent-filter>
-80-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:34:13-36:29
+80-->[androidx.fragment:fragment-testing:1.3.3] /Users/kaidencamazine/.gradle/caches/transforms-2/files-2.1/dc0e3c6b17f8575e4aa57edca9e365d5/jetified-fragment-testing-1.3.3/AndroidManifest.xml:34:13-36:29
 81                <action android:name="android.intent.action.MAIN" />
-81-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:53:17-69
-81-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:53:25-66
+81-->/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/AndroidManifest.xml:53:17-69
+81-->/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/AndroidManifest.xml:53:25-66
 82            </intent-filter>
 83        </activity>
 84        <activity
-84-->[androidx.test:core:1.3.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\73d0678ae04aa1970553ff6f2875e22a\jetified-core-1.3.0\AndroidManifest.xml:34:9-40:20
+84-->[androidx.test:core:1.3.0] /Users/kaidencamazine/.gradle/caches/transforms-2/files-2.1/73d0678ae04aa1970553ff6f2875e22a/jetified-core-1.3.0/AndroidManifest.xml:34:9-40:20
 85            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
-85-->[androidx.test:core:1.3.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\73d0678ae04aa1970553ff6f2875e22a\jetified-core-1.3.0\AndroidManifest.xml:35:13-95
+85-->[androidx.test:core:1.3.0] /Users/kaidencamazine/.gradle/caches/transforms-2/files-2.1/73d0678ae04aa1970553ff6f2875e22a/jetified-core-1.3.0/AndroidManifest.xml:35:13-95
 86            android:theme="@android:style/Theme" >
-86-->[androidx.test:core:1.3.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\73d0678ae04aa1970553ff6f2875e22a\jetified-core-1.3.0\AndroidManifest.xml:36:13-49
+86-->[androidx.test:core:1.3.0] /Users/kaidencamazine/.gradle/caches/transforms-2/files-2.1/73d0678ae04aa1970553ff6f2875e22a/jetified-core-1.3.0/AndroidManifest.xml:36:13-49
 87            <intent-filter>
-87-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:34:13-36:29
+87-->[androidx.fragment:fragment-testing:1.3.3] /Users/kaidencamazine/.gradle/caches/transforms-2/files-2.1/dc0e3c6b17f8575e4aa57edca9e365d5/jetified-fragment-testing-1.3.3/AndroidManifest.xml:34:13-36:29
 88                <action android:name="android.intent.action.MAIN" />
-88-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:53:17-69
-88-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:53:25-66
+88-->/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/AndroidManifest.xml:53:17-69
+88-->/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/AndroidManifest.xml:53:25-66
 89            </intent-filter>
 90        </activity>
 91        <activity
-91-->[androidx.test:core:1.3.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\73d0678ae04aa1970553ff6f2875e22a\jetified-core-1.3.0\AndroidManifest.xml:41:9-47:20
+91-->[androidx.test:core:1.3.0] /Users/kaidencamazine/.gradle/caches/transforms-2/files-2.1/73d0678ae04aa1970553ff6f2875e22a/jetified-core-1.3.0/AndroidManifest.xml:41:9-47:20
 92            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
-92-->[androidx.test:core:1.3.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\73d0678ae04aa1970553ff6f2875e22a\jetified-core-1.3.0\AndroidManifest.xml:42:13-103
+92-->[androidx.test:core:1.3.0] /Users/kaidencamazine/.gradle/caches/transforms-2/files-2.1/73d0678ae04aa1970553ff6f2875e22a/jetified-core-1.3.0/AndroidManifest.xml:42:13-103
 93            android:theme="@android:style/Theme.Dialog" >
-93-->[androidx.test:core:1.3.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\73d0678ae04aa1970553ff6f2875e22a\jetified-core-1.3.0\AndroidManifest.xml:43:13-56
+93-->[androidx.test:core:1.3.0] /Users/kaidencamazine/.gradle/caches/transforms-2/files-2.1/73d0678ae04aa1970553ff6f2875e22a/jetified-core-1.3.0/AndroidManifest.xml:43:13-56
 94            <intent-filter>
-94-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:34:13-36:29
+94-->[androidx.fragment:fragment-testing:1.3.3] /Users/kaidencamazine/.gradle/caches/transforms-2/files-2.1/dc0e3c6b17f8575e4aa57edca9e365d5/jetified-fragment-testing-1.3.3/AndroidManifest.xml:34:13-36:29
 95                <action android:name="android.intent.action.MAIN" />
-95-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:53:17-69
-95-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:53:25-66
+95-->/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/AndroidManifest.xml:53:17-69
+95-->/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/AndroidManifest.xml:53:25-66
 96            </intent-filter>
 97        </activity>
 98    </application>
