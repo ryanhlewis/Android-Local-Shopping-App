@@ -4,10 +4,6 @@
         "source": "/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/res/layout/activity_horizontal_list.xml"
     },
     {
-        "merged": "/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/productremove.xml",
-        "source": "/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/res/layout/productremove.xml"
-    },
-    {
         "merged": "/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/vertical_product_page.xml",
         "source": "/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/src/main/res/layout/vertical_product_page.xml"
     },

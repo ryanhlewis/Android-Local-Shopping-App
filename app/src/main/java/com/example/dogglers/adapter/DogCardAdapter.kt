@@ -16,15 +16,12 @@
 package com.example.dogglers.adapter
 
 import android.content.Context
-import android.content.Intent
-import android.provider.ContactsContract
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
-import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.example.dogglers.*
 import com.example.dogglers.const.Layout

@@ -2810,6 +2810,7 @@ id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
+id trash
 id triangle
 id unchecked
 id uniform
@@ -2912,6 +2913,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout dp_example
 layout grid_list_item
+layout itemremove
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
