@@ -21,178 +21,171 @@
 21
 22    <uses-sdk
 23        android:minSdkVersion="21"
-23-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml
+23-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml
 24        android:targetSdkVersion="30" />
-24-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml
+24-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml
 25
 26    <uses-permission android:name="android.permission.REORDER_TASKS" />
 26-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:25:5-72
 26-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:25:22-69
 27
 28    <application
-28-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:20:5-73:19
+28-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:20:5-71:19
 29        android:allowBackup="true"
-29-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:21:9-35
+29-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:21:9-35
 30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 30-->[androidx.core:core:1.3.2] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\ee64c205f53f42c956b9de532d024878\core-1.3.2\AndroidManifest.xml:24:18-86
 31        android:debuggable="true"
 32        android:icon="@mipmap/ic_launcher"
-32-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:22:9-43
+32-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:22:9-43
 33        android:label="@string/app_name"
-33-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:23:9-41
+33-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:23:9-41
 34        android:roundIcon="@mipmap/ic_launcher_round"
-34-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:24:9-54
+34-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:24:9-54
 35        android:supportsRtl="true"
-35-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:25:9-35
-36        android:testOnly="true"
-37        android:theme="@style/Theme.Dogglers" >
-37-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:26:9-46
-38        <activity android:name="com.example.dogglers.ShoesActivity" >
-38-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:27:9-31:20
-38-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:27:19-48
-39            <meta-data
-39-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:28:13-30:49
-40                android:name="android.support.PARENT_ACTIVITY"
-40-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:29:17-63
-41                android:value=".MainActivity" />
-41-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:30:17-46
-42        </activity>
-43        <activity android:name="com.example.dogglers.PhonesActivity" >
-43-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:32:9-36:20
-43-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:32:19-49
-44            <meta-data
-44-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:28:13-30:49
-45                android:name="android.support.PARENT_ACTIVITY"
-45-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:29:17-63
-46                android:value=".MainActivity" />
-46-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:30:17-46
-47        </activity>
-48        <activity android:name="com.example.dogglers.BooksActivity" >
-48-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:37:9-41:20
-48-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:37:19-48
-49            <meta-data
-49-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:28:13-30:49
-50                android:name="android.support.PARENT_ACTIVITY"
-50-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:29:17-63
-51                android:value=".MainActivity" />
-51-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:30:17-46
-52        </activity>
-53        <activity android:name="com.example.dogglers.IntroActivity" >
-53-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:43:9-44:20
-53-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:43:19-48
-54        </activity>
-55        <activity android:name="com.example.dogglers.CartActivity" >
-55-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:45:9-49:20
-55-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:45:19-47
-56            <meta-data
-56-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:28:13-30:49
-57                android:name="android.support.PARENT_ACTIVITY"
-57-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:29:17-63
-58                android:value=".MainActivity" />
-58-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:30:17-46
-59        </activity>
-60        <activity android:name="com.example.dogglers.VerticalListActivity" >
-60-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:51:9-55:20
-60-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:51:19-55
-61            <meta-data
-61-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:28:13-30:49
-62                android:name="android.support.PARENT_ACTIVITY"
-62-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:29:17-63
-63                android:value=".MainActivity" />
-63-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:30:17-46
-64        </activity>
-65        <activity android:name="com.example.dogglers.ProductActivity" >
-65-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:56:9-60:20
-65-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:56:19-50
-66            <meta-data
-66-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:28:13-30:49
-67                android:name="android.support.PARENT_ACTIVITY"
-67-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:29:17-63
-68                android:value=".MainActivity" />
-68-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:30:17-46
-69        </activity>
-70        <activity android:name="com.example.dogglers.GridListActivity" >
-70-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:61:9-65:20
-70-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:61:19-51
-71            <meta-data
-71-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:28:13-30:49
-72                android:name="android.support.PARENT_ACTIVITY"
-72-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:29:17-63
-73                android:value=".MainActivity" />
-73-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:30:17-46
-74        </activity>
-75        <activity android:name="com.example.dogglers.MainActivity" >
-75-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:66:9-72:20
-75-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:66:19-47
-76            <intent-filter>
-76-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:67:13-71:29
-77                <action android:name="android.intent.action.MAIN" />
-77-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:68:17-69
-77-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:68:25-66
-78
-79                <category android:name="android.intent.category.LAUNCHER" />
-79-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:70:17-77
-79-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:70:27-74
-80            </intent-filter>
-81        </activity>
-82        <activity
-82-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:28:9-37:20
-83            android:name="androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity"
-83-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:29:13-96
-84            android:exported="true"
-84-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:30:13-36
-85            android:multiprocess="true"
-85-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:31:13-40
-86            android:taskAffinity=""
-86-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:32:13-36
-87            android:theme="@style/FragmentScenarioEmptyFragmentActivityTheme" >
-87-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:33:13-78
-88            <intent-filter>
-88-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:34:13-36:29
-89                <action android:name="android.intent.action.MAIN" />
-89-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:68:17-69
-89-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:68:25-66
-90            </intent-filter>
-91        </activity>
-92        <activity
-92-->[androidx.test:core:1.3.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\73d0678ae04aa1970553ff6f2875e22a\jetified-core-1.3.0\AndroidManifest.xml:27:9-33:20
-93            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
-93-->[androidx.test:core:1.3.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\73d0678ae04aa1970553ff6f2875e22a\jetified-core-1.3.0\AndroidManifest.xml:28:13-99
-94            android:theme="@android:style/Theme" >
-94-->[androidx.test:core:1.3.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\73d0678ae04aa1970553ff6f2875e22a\jetified-core-1.3.0\AndroidManifest.xml:29:13-49
-95            <intent-filter>
-95-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:34:13-36:29
-96                <action android:name="android.intent.action.MAIN" />
-96-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:68:17-69
-96-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:68:25-66
-97            </intent-filter>
-98        </activity>
-99        <activity
-99-->[androidx.test:core:1.3.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\73d0678ae04aa1970553ff6f2875e22a\jetified-core-1.3.0\AndroidManifest.xml:34:9-40:20
-100            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
-100-->[androidx.test:core:1.3.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\73d0678ae04aa1970553ff6f2875e22a\jetified-core-1.3.0\AndroidManifest.xml:35:13-95
-101            android:theme="@android:style/Theme" >
-101-->[androidx.test:core:1.3.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\73d0678ae04aa1970553ff6f2875e22a\jetified-core-1.3.0\AndroidManifest.xml:36:13-49
-102            <intent-filter>
-102-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:34:13-36:29
-103                <action android:name="android.intent.action.MAIN" />
-103-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:68:17-69
-103-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:68:25-66
-104            </intent-filter>
-105        </activity>
-106        <activity
-106-->[androidx.test:core:1.3.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\73d0678ae04aa1970553ff6f2875e22a\jetified-core-1.3.0\AndroidManifest.xml:41:9-47:20
-107            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
-107-->[androidx.test:core:1.3.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\73d0678ae04aa1970553ff6f2875e22a\jetified-core-1.3.0\AndroidManifest.xml:42:13-103
-108            android:theme="@android:style/Theme.Dialog" >
-108-->[androidx.test:core:1.3.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\73d0678ae04aa1970553ff6f2875e22a\jetified-core-1.3.0\AndroidManifest.xml:43:13-56
-109            <intent-filter>
-109-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:34:13-36:29
-110                <action android:name="android.intent.action.MAIN" />
-110-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:68:17-69
-110-->C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:68:25-66
-111            </intent-filter>
-112        </activity>
-113    </application>
-114
-115</manifest>
+35-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:25:9-35
+36        android:theme="@style/Theme.Dogglers" >
+36-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:26:9-46
+37        <activity android:name="com.example.dogglers.ShoesActivity" >
+37-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:27:9-31:20
+37-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:27:19-48
+38            <meta-data
+38-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:28:13-30:49
+39                android:name="android.support.PARENT_ACTIVITY"
+39-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:29:17-63
+40                android:value=".MainActivity" />
+40-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:30:17-46
+41        </activity>
+42        <activity android:name="com.example.dogglers.PhonesActivity" >
+42-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:32:9-36:20
+42-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:32:19-49
+43            <meta-data
+43-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:28:13-30:49
+44                android:name="android.support.PARENT_ACTIVITY"
+44-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:29:17-63
+45                android:value=".MainActivity" />
+45-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:30:17-46
+46        </activity>
+47        <activity android:name="com.example.dogglers.BooksActivity" >
+47-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:37:9-41:20
+47-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:37:19-48
+48            <meta-data
+48-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:28:13-30:49
+49                android:name="android.support.PARENT_ACTIVITY"
+49-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:29:17-63
+50                android:value=".MainActivity" />
+50-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:30:17-46
+51        </activity>
+52        <activity android:name="com.example.dogglers.IntroActivity" >
+52-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:43:9-44:20
+52-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:43:19-48
+53        </activity>
+54        <activity android:name="com.example.dogglers.CartActivity" >
+54-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:45:9-49:20
+54-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:45:19-47
+55            <meta-data
+55-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:28:13-30:49
+56                android:name="android.support.PARENT_ACTIVITY"
+56-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:29:17-63
+57                android:value=".MainActivity" />
+57-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:30:17-46
+58        </activity>
+59        <activity android:name="com.example.dogglers.VerticalListActivity" >
+59-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:51:9-55:20
+59-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:51:19-55
+60            <meta-data
+60-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:28:13-30:49
+61                android:name="android.support.PARENT_ACTIVITY"
+61-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:29:17-63
+62                android:value=".MainActivity" />
+62-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:30:17-46
+63        </activity>
+64        <activity android:name="com.example.dogglers.ProductActivity" >
+64-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:56:9-60:20
+64-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:56:19-50
+65            <meta-data
+65-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:28:13-30:49
+66                android:name="android.support.PARENT_ACTIVITY"
+66-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:29:17-63
+67                android:value=".MainActivity" />
+67-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:30:17-46
+68        </activity>
+69        <activity android:name="com.example.dogglers.GridListActivity" >
+69-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:61:9-63:20
+69-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:61:19-51
+70        </activity>
+71        <activity android:name="com.example.dogglers.MainActivity" >
+71-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:64:9-70:20
+71-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:64:19-47
+72            <intent-filter>
+72-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:65:13-69:29
+73                <action android:name="android.intent.action.MAIN" />
+73-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:66:17-69
+73-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:66:25-66
+74
+75                <category android:name="android.intent.category.LAUNCHER" />
+75-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:68:17-77
+75-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:68:27-74
+76            </intent-filter>
+77        </activity>
+78        <activity
+78-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:28:9-37:20
+79            android:name="androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity"
+79-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:29:13-96
+80            android:exported="true"
+80-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:30:13-36
+81            android:multiprocess="true"
+81-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:31:13-40
+82            android:taskAffinity=""
+82-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:32:13-36
+83            android:theme="@style/FragmentScenarioEmptyFragmentActivityTheme" >
+83-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:33:13-78
+84            <intent-filter>
+84-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:34:13-36:29
+85                <action android:name="android.intent.action.MAIN" />
+85-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:66:17-69
+85-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:66:25-66
+86            </intent-filter>
+87        </activity>
+88        <activity
+88-->[androidx.test:core:1.3.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\73d0678ae04aa1970553ff6f2875e22a\jetified-core-1.3.0\AndroidManifest.xml:27:9-33:20
+89            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+89-->[androidx.test:core:1.3.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\73d0678ae04aa1970553ff6f2875e22a\jetified-core-1.3.0\AndroidManifest.xml:28:13-99
+90            android:theme="@android:style/Theme" >
+90-->[androidx.test:core:1.3.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\73d0678ae04aa1970553ff6f2875e22a\jetified-core-1.3.0\AndroidManifest.xml:29:13-49
+91            <intent-filter>
+91-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:34:13-36:29
+92                <action android:name="android.intent.action.MAIN" />
+92-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:66:17-69
+92-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:66:25-66
+93            </intent-filter>
+94        </activity>
+95        <activity
+95-->[androidx.test:core:1.3.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\73d0678ae04aa1970553ff6f2875e22a\jetified-core-1.3.0\AndroidManifest.xml:34:9-40:20
+96            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+96-->[androidx.test:core:1.3.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\73d0678ae04aa1970553ff6f2875e22a\jetified-core-1.3.0\AndroidManifest.xml:35:13-95
+97            android:theme="@android:style/Theme" >
+97-->[androidx.test:core:1.3.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\73d0678ae04aa1970553ff6f2875e22a\jetified-core-1.3.0\AndroidManifest.xml:36:13-49
+98            <intent-filter>
+98-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:34:13-36:29
+99                <action android:name="android.intent.action.MAIN" />
+99-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:66:17-69
+99-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:66:25-66
+100            </intent-filter>
+101        </activity>
+102        <activity
+102-->[androidx.test:core:1.3.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\73d0678ae04aa1970553ff6f2875e22a\jetified-core-1.3.0\AndroidManifest.xml:41:9-47:20
+103            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+103-->[androidx.test:core:1.3.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\73d0678ae04aa1970553ff6f2875e22a\jetified-core-1.3.0\AndroidManifest.xml:42:13-103
+104            android:theme="@android:style/Theme.Dialog" >
+104-->[androidx.test:core:1.3.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\73d0678ae04aa1970553ff6f2875e22a\jetified-core-1.3.0\AndroidManifest.xml:43:13-56
+105            <intent-filter>
+105-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:34:13-36:29
+106                <action android:name="android.intent.action.MAIN" />
+106-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:66:17-69
+106-->D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:66:25-66
+107            </intent-filter>
+108        </activity>
+109    </application>
+110
+111</manifest>

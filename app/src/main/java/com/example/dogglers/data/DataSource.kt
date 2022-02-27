@@ -43,41 +43,53 @@ object DataSource {
     )
 
     val products: MutableList<Product> = mutableListOf(
-        Product(
-            R.drawable.samsung21,
-            "Samsung Galaxy S21 FE 5G Cell Phone, Factory Unlocked Android Smartphone, 128GB, 120Hz Display, Pro Grade Camera, All Day Intelligent Battery, US Version, Olive",
-            "Sal's Tech Shop",
-            "450"
-        ),
-        Product(
-            R.drawable.iphone11,
-            "Apple iPhone 11 Pro, US Version, 64GB, Silver - Unlocked",
-            "Sal's Tech Shop",
-            "430"
-        ),
-        Product(
-            R.drawable.theevery,
-            "The Every: A Novel by Dave Eggers, Award-Winning Author of The Circle",
-            "Book Haven",
-            "10"
-        ),
-        Product(
-            R.drawable.unknownwoman,
-            "Portrait of an Unknown Woman: A Novel by Daniel Silva",
-            "Book Haven",
-            "15"
-        ),
-        Product(
-            R.drawable.boots,
-            "Hand-Crafted Custom Fit Boots, Weatherized & Iron Toe Tips Included",
-            "Shoe Creator",
-            "235"
-        ),
-        Product(
-            R.drawable.dressshoes,
-            "Hand-Crafted Crocodile-Pattern Leather Dress Shoes",
-            "Shoe Creator",
-            "130"
-        )
+        Product(R.drawable.nike,R.string.nike, R.string.nike_store,R.string.nike_price),
+        Product(R.drawable.hoka,R.string.hoka, R.string.hoka_store,R.string.hoka_price),
+        Product( R.drawable.newbalance, R.string.new_balance, R.string.new_balance_store,R.string.new_balance_price),
+        Product(R.drawable.boots_1,R.string.boots,R.string.boots_store,R.string.boots_price),
+        Product(R.drawable.dressshoes,R.string.dress_shoes,R.string.dress_shoes_store,R.string.dress_shoes_price),
+        Product(R.drawable.iphone11,R.string.iphone11, R.string.iphone11_store,R.string.iphone11_price),
+        Product(R.drawable.iphone13,R.string.iphone13,R.string.iphone13_store,R.string.iphone13_price),
+        Product(R.drawable.pixel6, R.string.galaxy, R.string.galaxy_store,R.string.galazy_price),
+        Product(R.drawable.samsung21,R.string.samsung21, R.string.samsung21_store,R.string.samsung21_price),
+        Product(R.drawable.samsung22,R.string.samsung22, R.string.samsung22_store,R.string.samsung22_price),
+        Product(R.drawable.theevery,R.string.the_every, R.string.the_every_store,R.string.the_every_price),
+        Product( R.drawable.mockingbird,R.string.mockingbird,R.string.mockingbird_store,R.string.mockingbird_price),
+        Product(R.drawable.pride,R.string.pride, R.string.pride_store,R.string.pride_price),
+        Product(R.drawable.unknownwoman,R.string.unknownwoman, R.string.unknownwoman_store,R.string.unknownwoman_price),
+        Product(R.drawable.wind,R.string.wind, R.string.wind_store,R.string.wind_price)
     )
+
+    var shoesArray: MutableList<Product> = mutableListOf(
+            Product(R.drawable.nike,R.string.nike, R.string.nike_store,R.string.nike_price),
+            Product(R.drawable.hoka,R.string.hoka, R.string.hoka_store,R.string.hoka_price),
+            Product( R.drawable.newbalance, R.string.new_balance, R.string.new_balance_store,R.string.new_balance_price),
+            Product(R.drawable.boots_1,R.string.boots,R.string.boots_store,R.string.boots_price),
+            Product(R.drawable.dressshoes,R.string.dress_shoes,R.string.dress_shoes_store,R.string.dress_shoes_price))
+
+
+    var phonesArray: MutableList<Product> = mutableListOf(
+            Product(R.drawable.iphone11,R.string.iphone11, R.string.iphone11_store,R.string.iphone11_price),
+            Product(R.drawable.iphone13,R.string.iphone13,R.string.iphone13_store,R.string.iphone13_price),
+            Product(R.drawable.pixel6, R.string.galaxy, R.string.galaxy_store,R.string.galazy_price),
+            Product(R.drawable.samsung21,R.string.samsung21, R.string.samsung21_store,R.string.samsung21_price),
+            Product(R.drawable.samsung22,R.string.samsung22, R.string.samsung22_store,R.string.samsung22_price))
+
+
+    var booksArray: MutableList<Product> = mutableListOf(
+            Product(R.drawable.theevery,R.string.the_every, R.string.the_every_store,R.string.the_every_price),
+            Product( R.drawable.mockingbird,R.string.mockingbird,R.string.mockingbird_store,R.string.mockingbird_price),
+            Product(R.drawable.pride,R.string.pride, R.string.pride_store,R.string.pride_price),
+            Product(R.drawable.unknownwoman,R.string.unknownwoman, R.string.unknownwoman_store,R.string.unknownwoman_price),
+            Product(R.drawable.wind,R.string.wind, R.string.wind_store,R.string.wind_price))
+
+    var typesArray: MutableList<Product> = mutableListOf(
+        Product(R.drawable.randomproducts,R.string.randomproducts, R.string.empty,R.string.empty),
+        Product(R.drawable.shoes,R.string.shoes, R.string.empty,R.string.empty),
+        Product( R.drawable.books, R.string.books, R.string.empty,R.string.empty),
+        Product(R.drawable.phones,R.string.phones,R.string.empty,R.string.empty),
+        Product(R.drawable.shopping_cart,R.string.cart,R.string.empty,R.string.empty))
+
+
+
 }

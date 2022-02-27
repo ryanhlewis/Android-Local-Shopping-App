@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:17:1-75:12
-INJECTED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:17:1-75:12
-INJECTED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:17:1-75:12
-INJECTED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:17:1-75:12
+ADDED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:17:1-73:12
+INJECTED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:17:1-73:12
+INJECTED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:17:1-73:12
+INJECTED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:17:1-73:12
 MERGED from [androidx.databinding:viewbinding:4.1.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\01190dd878731fb9a2e94978a51730fb\jetified-viewbinding-4.1.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:17:1-40:12
 MERGED from [androidx.fragment:fragment-ktx:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\969cf4a99a18f6e638a23f4cbad3e283\jetified-fragment-ktx-1.3.3\AndroidManifest.xml:17:1-24:12
@@ -57,25 +57,25 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\PC\.gradle\ca
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\d966d594efa8049d371328e6d58e180a\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\3d9043097d3648e3050d1216ee2991e5\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\6aac124ec82aec9ea3808b769b722212\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:17:1-75:12
-INJECTED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:17:1-75:12
-INJECTED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:17:1-75:12
+INJECTED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:17:1-73:12
+INJECTED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:17:1-73:12
+INJECTED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:17:1-73:12
 	package
-		ADDED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:18:5-35
-		INJECTED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml
+		ADDED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:18:5-35
+		INJECTED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:17:1-75:12
-		INJECTED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml
+		ADDED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:17:1-73:12
+		INJECTED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:17:1-75:12
-		INJECTED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml
+		ADDED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:17:1-73:12
+		INJECTED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:17:11-69
+		ADDED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:17:11-69
 application
-ADDED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:20:5-73:19
+ADDED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:20:5-71:19
 MERGED from [androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:27:5-38:19
 MERGED from [androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:27:5-38:19
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\883a300103dbc81dd4886fe59ceb257f\material-1.3.0\AndroidManifest.xml:22:5-20
@@ -91,73 +91,73 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\PC
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.2] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\ee64c205f53f42c956b9de532d024878\core-1.3.2\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:25:9-35
+		ADDED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:25:9-35
 	android:label
-		ADDED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:23:9-41
+		ADDED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:23:9-41
 	android:roundIcon
-		ADDED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:24:9-54
+		ADDED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:24:9-54
 	android:icon
-		ADDED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:22:9-43
+		ADDED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:22:9-43
 	android:allowBackup
-		ADDED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:21:9-35
+		ADDED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:21:9-35
 	android:theme
-		ADDED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:26:9-46
+		ADDED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:26:9-46
 activity#com.example.dogglers.ShoesActivity
-ADDED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:27:9-31:20
+ADDED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:27:9-31:20
 	android:name
-		ADDED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:27:19-48
+		ADDED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:27:19-48
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:28:13-30:49
+ADDED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:28:13-30:49
 	android:value
-		ADDED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:30:17-46
+		ADDED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:30:17-46
 	android:name
-		ADDED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:29:17-63
+		ADDED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:29:17-63
 activity#com.example.dogglers.PhonesActivity
-ADDED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:32:9-36:20
+ADDED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:32:9-36:20
 	android:name
-		ADDED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:32:19-49
+		ADDED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:32:19-49
 activity#com.example.dogglers.BooksActivity
-ADDED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:37:9-41:20
+ADDED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:37:9-41:20
 	android:name
-		ADDED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:37:19-48
+		ADDED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:37:19-48
 activity#com.example.dogglers.IntroActivity
-ADDED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:43:9-44:20
+ADDED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:43:9-44:20
 	android:name
-		ADDED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:43:19-48
+		ADDED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:43:19-48
 activity#com.example.dogglers.CartActivity
-ADDED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:45:9-49:20
+ADDED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:45:9-49:20
 	android:name
-		ADDED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:45:19-47
+		ADDED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:45:19-47
 activity#com.example.dogglers.VerticalListActivity
-ADDED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:51:9-55:20
+ADDED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:51:9-55:20
 	android:name
-		ADDED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:51:19-55
+		ADDED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:51:19-55
 activity#com.example.dogglers.ProductActivity
-ADDED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:56:9-60:20
+ADDED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:56:9-60:20
 	android:name
-		ADDED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:56:19-50
+		ADDED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:56:19-50
 activity#com.example.dogglers.GridListActivity
-ADDED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:61:9-65:20
+ADDED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:61:9-63:20
 	android:name
-		ADDED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:61:19-51
+		ADDED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:61:19-51
 activity#com.example.dogglers.MainActivity
-ADDED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:66:9-72:20
+ADDED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:64:9-70:20
 	android:name
-		ADDED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:66:19-47
+		ADDED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:64:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:67:13-71:29
+ADDED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:65:13-69:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:68:17-69
+ADDED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:66:17-69
 	android:name
-		ADDED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:68:25-66
+		ADDED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:66:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:70:17-77
+ADDED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:68:17-77
 	android:name
-		ADDED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml:70:27-74
+		ADDED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml:68:27-74
 uses-sdk
-INJECTED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml
+INJECTED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml
+INJECTED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml
 MERGED from [androidx.databinding:viewbinding:4.1.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\01190dd878731fb9a2e94978a51730fb\jetified-viewbinding-4.1.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.databinding:viewbinding:4.1.1] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\01190dd878731fb9a2e94978a51730fb\jetified-viewbinding-4.1.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:20:5-23:54
@@ -264,18 +264,18 @@ MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\PC\.gradle\caches\t
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\3d9043097d3648e3050d1216ee2991e5\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\6aac124ec82aec9ea3808b769b722212\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\6aac124ec82aec9ea3808b769b722212\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
-INJECTED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml
+INJECTED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml
+INJECTED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
-		INJECTED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml
+		ADDED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\PC\Documents\GitHub\Android-Local-Shopping-App\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml
+		ADDED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Downloads\android-local-shopping-app\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.REORDER_TASKS
 ADDED from [androidx.fragment:fragment-testing:1.3.3] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\dc0e3c6b17f8575e4aa57edca9e365d5\jetified-fragment-testing-1.3.3\AndroidManifest.xml:25:5-72
 MERGED from [androidx.test:core:1.3.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\73d0678ae04aa1970553ff6f2875e22a\jetified-core-1.3.0\AndroidManifest.xml:24:5-72

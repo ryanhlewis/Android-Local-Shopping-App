@@ -37,7 +37,8 @@ class BooksActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         // Set Item View
-        DataSource.chosenArray = DataSource.bookArray
+        DataSource.chosenArray = DataSource.booksArray
+
 
         binding.verticalRecyclerView.adapter = DogCardAdapter(
             applicationContext,
@@ -47,7 +48,7 @@ class BooksActivity : AppCompatActivity() {
                 DataSource.chosenProduct.add(photo)
                 var listIntent = Intent(this, ProductActivity::class.java)
                 startActivity(listIntent)
-                Toast.makeText(applicationContext, "${photo.name}", Toast.LENGTH_SHORT).show()
+                //Toast.makeText(applicationContext, "${photo.name}", Toast.LENGTH_SHORT).show()
 
             }
         )

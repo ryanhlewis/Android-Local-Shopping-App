@@ -41,8 +41,8 @@ class DogCardAdapter(
     private val onClickListener: OnClickListener
     ): RecyclerView.Adapter<DogCardAdapter.DogCardViewHolder>() {
 
-    class OnClickListener(val clickListener: (meme: Product) -> Unit) {
-        fun onClick(meme: Product) = clickListener(meme)
+    class OnClickListener(val clickListener: (product: Product) -> Unit) {
+        fun onClick(product: Product) = clickListener(product)
     }
 
     // TODO: Initialize the data using the List found in data/DataSource
@@ -54,8 +54,8 @@ class DogCardAdapter(
     class DogCardViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         // TODO: Declare and initialize all of the list item UI components
         val dogName: TextView = view.findViewById(R.id.dogName)
-        val dogAge: TextView = view.findViewById(R.id.dogAge)
-        val dogHobby: TextView = view.findViewById(R.id.dogHobby)
+        val dogAge: TextView? = view.findViewById(R.id.dogAge)
+        val dogHobby: TextView? = view.findViewById(R.id.dogHobby)
         val dogPicture: ImageView = view.findViewById(R.id.dogPicture)
 
         val dogButton: Button? = view.findViewById(R.id.AddToCart)
@@ -112,10 +112,10 @@ class DogCardAdapter(
         //  resources?.getString(R.string.dog_hobbies, dog.hobbies)
 
         // TODO: Set the text for the current dog's age
-        holder.dogAge.setText(resources?.getString(R.string.dog_age, currentDog.store))
+        holder.dogAge?.setText(resources?.getString(R.string.dog_age, resources?.getString(currentDog.store)))
 
         // TODO: Set the text for the current dog's hobbies
-        holder.dogHobby.setText(resources?.getString(R.string.dog_hobbies, currentDog.price))
+        holder.dogHobby?.setText(resources?.getString(R.string.dog_hobbies, resources?.getString(currentDog.price)))
 
         holder.dogButton?.setOnClickListener() {
             DataSource.cart.add(currentDog)

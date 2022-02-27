@@ -38,7 +38,8 @@ class PhonesActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         // Set Item View
-        DataSource.chosenArray = DataSource.phoneArray
+        DataSource.chosenArray = DataSource.phonesArray
+
 
         binding.verticalRecyclerView.adapter = DogCardAdapter(
             applicationContext,
@@ -48,7 +49,7 @@ class PhonesActivity : AppCompatActivity() {
                 DataSource.chosenProduct.add(photo)
                 var listIntent = Intent(this, ProductActivity::class.java)
                 startActivity(listIntent)
-                Toast.makeText(applicationContext, "${photo.name}", Toast.LENGTH_SHORT).show()
+                //Toast.makeText(applicationContext, "${photo.name}", Toast.LENGTH_SHORT).show()
 
             }
         )
@@ -58,6 +59,10 @@ class PhonesActivity : AppCompatActivity() {
 
         // Enable up button for backward navigation
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
+        supportActionBar?.setLogo(R.drawable.tbaylogolarge)
+        supportActionBar?.setIcon(R.drawable.tbaylogolarge)
+
 
     }
 }

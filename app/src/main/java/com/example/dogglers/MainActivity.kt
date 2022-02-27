@@ -32,6 +32,8 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        //setSupportActionBar(findViewById(R.id.my_toolbar))
+
 
         // If this is their first time in the App, display
         // the App Intro.
@@ -47,6 +49,10 @@ class MainActivity : AppCompatActivity() {
             // Display the intro page-
             launchIntro()
 
+        }
+        else {
+            listIntent = Intent(this, GridListActivity::class.java)
+            startActivity(listIntent)
         }
 
         // Cart

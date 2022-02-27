@@ -16,7 +16,7 @@
 <resources>
     <string name="app_name">TBay</string>
     <string name="dog_age">From %1$s</string>
-    <string name="dog_hobbies">$ %1$s</string>
+    <string name="dog_hobbies"> %1$s</string>
     <string name="vertical">Vertical</string>
     <string name="horizontal">Horizontal</string>
     <string name="grid">Grid</string>
@@ -95,4 +95,14 @@
     <string name="dressshoes_2">Hand-Crafted Crocodile-Pattern Leather Dress Shoes</string>
     <string name="dressshoes_2_store">Shoe Creator</string>
     <string name="dressshoes_2_price">$130.99</string>
+
+    <string name="shoes">Shoes</string>
+    <string name="randomproducts">Everything</string>
+    <string name="phones">Phones</string>
+    <string name="books">Books</string>
+    <string name="cart">Shopping Cart</string>
+
+    <string name="empty"></string>
+
+
 </resources>

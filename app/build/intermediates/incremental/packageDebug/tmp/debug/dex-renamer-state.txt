@@ -1,7 +1,7 @@
-#Mon Feb 21 19:56:13 CST 2022
-base.1=/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex
+#Tue Feb 22 00:46:16 CST 2022
+base.1=D\:\\Downloads\\android-local-shopping-app\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
 path.1=classes.dex
-base.0=/Users/kaidencamazine/AndroidStudioProjects/android-local-shopping-app/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.0=D\:\\Downloads\\android-local-shopping-app\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
 path.0=classes.dex

@@ -15,6 +15,7 @@
 */
 package com.example.dogglers
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.dogglers.adapter.DogCardAdapter
@@ -25,6 +26,8 @@ import com.example.dogglers.databinding.ActivityGridListBinding
 class GridListActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityGridListBinding
+    private lateinit var listIntent: Intent
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -32,12 +35,28 @@ class GridListActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         // Set Item View
-        DataSource.chosenArray = DataSource.products
+        DataSource.chosenArray = DataSource.typesArray
 
         binding.gridRecyclerView.adapter = DogCardAdapter(
             applicationContext,
             Layout.GRID,
             DogCardAdapter.OnClickListener { photo ->
+                if(photo.name == R.string.shoes) {
+                    listIntent = Intent(this, ShoesActivity::class.java)
+                    startActivity(listIntent)
+                } else if(photo.name == R.string.randomproducts) {
+                    listIntent = Intent(this, VerticalListActivity::class.java)
+                    startActivity(listIntent)
+                } else if(photo.name == R.string.books) {
+                    listIntent = Intent(this, BooksActivity::class.java)
+                    startActivity(listIntent)
+                } else if(photo.name == R.string.phones) {
+                    listIntent = Intent(this, PhonesActivity::class.java)
+                    startActivity(listIntent)
+                } else if(photo.name == R.string.cart) {
+                    listIntent = Intent(this, CartActivity::class.java)
+                    startActivity(listIntent)
+                }
             }
         )
 
@@ -45,6 +64,6 @@ class GridListActivity : AppCompatActivity() {
         binding.gridRecyclerView.setHasFixedSize(true)
 
         // Enable up button for backward navigation
-        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        //supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }
 }

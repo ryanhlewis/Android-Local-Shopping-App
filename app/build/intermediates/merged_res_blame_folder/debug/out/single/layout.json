@@ -1,38 +1,38 @@
 [
     {
-        "merged": "C:\\Users\\PC\\Documents\\GitHub\\Android-Local-Shopping-App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_vertical_list.xml",
-        "source": "C:\\Users\\PC\\Documents\\GitHub\\Android-Local-Shopping-App\\app\\src\\main\\res\\layout\\activity_vertical_list.xml"
+        "merged": "D:\\Downloads\\android-local-shopping-app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_intro.xml",
+        "source": "D:\\Downloads\\android-local-shopping-app\\app\\src\\main\\res\\layout\\activity_intro.xml"
     },
     {
-        "merged": "C:\\Users\\PC\\Documents\\GitHub\\Android-Local-Shopping-App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\itemremove.xml",
-        "source": "C:\\Users\\PC\\Documents\\GitHub\\Android-Local-Shopping-App\\app\\src\\main\\res\\layout\\itemremove.xml"
+        "merged": "D:\\Downloads\\android-local-shopping-app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_horizontal_list.xml",
+        "source": "D:\\Downloads\\android-local-shopping-app\\app\\src\\main\\res\\layout\\activity_horizontal_list.xml"
     },
     {
-        "merged": "C:\\Users\\PC\\Documents\\GitHub\\Android-Local-Shopping-App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\vertical_horizontal_list_item.xml",
-        "source": "C:\\Users\\PC\\Documents\\GitHub\\Android-Local-Shopping-App\\app\\src\\main\\res\\layout\\vertical_horizontal_list_item.xml"
+        "merged": "D:\\Downloads\\android-local-shopping-app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\grid_list_item.xml",
+        "source": "D:\\Downloads\\android-local-shopping-app\\app\\src\\main\\res\\layout\\grid_list_item.xml"
     },
     {
-        "merged": "C:\\Users\\PC\\Documents\\GitHub\\Android-Local-Shopping-App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_intro.xml",
-        "source": "C:\\Users\\PC\\Documents\\GitHub\\Android-Local-Shopping-App\\app\\src\\main\\res\\layout\\activity_intro.xml"
+        "merged": "D:\\Downloads\\android-local-shopping-app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\vertical_product_page.xml",
+        "source": "D:\\Downloads\\android-local-shopping-app\\app\\src\\main\\res\\layout\\vertical_product_page.xml"
     },
     {
-        "merged": "C:\\Users\\PC\\Documents\\GitHub\\Android-Local-Shopping-App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\grid_list_item.xml",
-        "source": "C:\\Users\\PC\\Documents\\GitHub\\Android-Local-Shopping-App\\app\\src\\main\\res\\layout\\grid_list_item.xml"
+        "merged": "D:\\Downloads\\android-local-shopping-app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\itemremove.xml",
+        "source": "D:\\Downloads\\android-local-shopping-app\\app\\src\\main\\res\\layout\\itemremove.xml"
     },
     {
-        "merged": "C:\\Users\\PC\\Documents\\GitHub\\Android-Local-Shopping-App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
-        "source": "C:\\Users\\PC\\Documents\\GitHub\\Android-Local-Shopping-App\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "D:\\Downloads\\android-local-shopping-app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\vertical_horizontal_list_item.xml",
+        "source": "D:\\Downloads\\android-local-shopping-app\\app\\src\\main\\res\\layout\\vertical_horizontal_list_item.xml"
     },
     {
-        "merged": "C:\\Users\\PC\\Documents\\GitHub\\Android-Local-Shopping-App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_grid_list.xml",
-        "source": "C:\\Users\\PC\\Documents\\GitHub\\Android-Local-Shopping-App\\app\\src\\main\\res\\layout\\activity_grid_list.xml"
+        "merged": "D:\\Downloads\\android-local-shopping-app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_vertical_list.xml",
+        "source": "D:\\Downloads\\android-local-shopping-app\\app\\src\\main\\res\\layout\\activity_vertical_list.xml"
     },
     {
-        "merged": "C:\\Users\\PC\\Documents\\GitHub\\Android-Local-Shopping-App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_horizontal_list.xml",
-        "source": "C:\\Users\\PC\\Documents\\GitHub\\Android-Local-Shopping-App\\app\\src\\main\\res\\layout\\activity_horizontal_list.xml"
+        "merged": "D:\\Downloads\\android-local-shopping-app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_grid_list.xml",
+        "source": "D:\\Downloads\\android-local-shopping-app\\app\\src\\main\\res\\layout\\activity_grid_list.xml"
     },
     {
-        "merged": "C:\\Users\\PC\\Documents\\GitHub\\Android-Local-Shopping-App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\vertical_product_page.xml",
-        "source": "C:\\Users\\PC\\Documents\\GitHub\\Android-Local-Shopping-App\\app\\src\\main\\res\\layout\\vertical_product_page.xml"
+        "merged": "D:\\Downloads\\android-local-shopping-app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\Downloads\\android-local-shopping-app\\app\\src\\main\\res\\layout\\activity_main.xml"
     }
 ]

@@ -20,27 +20,14 @@ public final class GridListItemBinding implements ViewBinding {
   private final MaterialCardView rootView;
 
   @NonNull
-  public final TextView dogAge;
-
-  @NonNull
-  public final TextView dogHobby;
-
-  @NonNull
-  public final TextView dogHobby2;
-
-  @NonNull
   public final TextView dogName;
 
   @NonNull
   public final ImageView dogPicture;
 
-  private GridListItemBinding(@NonNull MaterialCardView rootView, @NonNull TextView dogAge,
-      @NonNull TextView dogHobby, @NonNull TextView dogHobby2, @NonNull TextView dogName,
+  private GridListItemBinding(@NonNull MaterialCardView rootView, @NonNull TextView dogName,
       @NonNull ImageView dogPicture) {
     this.rootView = rootView;
-    this.dogAge = dogAge;
-    this.dogHobby = dogHobby;
-    this.dogHobby2 = dogHobby2;
     this.dogName = dogName;
     this.dogPicture = dogPicture;
   }
@@ -72,24 +59,6 @@ public final class GridListItemBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.dogAge;
-      TextView dogAge = rootView.findViewById(id);
-      if (dogAge == null) {
-        break missingId;
-      }
-
-      id = R.id.dogHobby;
-      TextView dogHobby = rootView.findViewById(id);
-      if (dogHobby == null) {
-        break missingId;
-      }
-
-      id = R.id.dogHobby2;
-      TextView dogHobby2 = rootView.findViewById(id);
-      if (dogHobby2 == null) {
-        break missingId;
-      }
-
       id = R.id.dogName;
       TextView dogName = rootView.findViewById(id);
       if (dogName == null) {
@@ -102,8 +71,7 @@ public final class GridListItemBinding implements ViewBinding {
         break missingId;
       }
 
-      return new GridListItemBinding((MaterialCardView) rootView, dogAge, dogHobby, dogHobby2,
-          dogName, dogPicture);
+      return new GridListItemBinding((MaterialCardView) rootView, dogName, dogPicture);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

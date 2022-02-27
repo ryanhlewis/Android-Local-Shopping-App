@@ -38,9 +38,12 @@ public final class VerticalProductPageBinding implements ViewBinding {
   @NonNull
   public final ImageView dogPicture;
 
+  @NonNull
+  public final TextView textView7;
+
   private VerticalProductPageBinding(@NonNull MaterialCardView rootView, @NonNull Button AddToCart,
       @NonNull TextView dogAge, @NonNull TextView dogAge2, @NonNull TextView dogHobby,
-      @NonNull TextView dogName, @NonNull ImageView dogPicture) {
+      @NonNull TextView dogName, @NonNull ImageView dogPicture, @NonNull TextView textView7) {
     this.rootView = rootView;
     this.AddToCart = AddToCart;
     this.dogAge = dogAge;
@@ -48,6 +51,7 @@ public final class VerticalProductPageBinding implements ViewBinding {
     this.dogHobby = dogHobby;
     this.dogName = dogName;
     this.dogPicture = dogPicture;
+    this.textView7 = textView7;
   }
 
   @Override
@@ -113,8 +117,14 @@ public final class VerticalProductPageBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textView7;
+      TextView textView7 = rootView.findViewById(id);
+      if (textView7 == null) {
+        break missingId;
+      }
+
       return new VerticalProductPageBinding((MaterialCardView) rootView, AddToCart, dogAge, dogAge2,
-          dogHobby, dogName, dogPicture);
+          dogHobby, dogName, dogPicture, textView7);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

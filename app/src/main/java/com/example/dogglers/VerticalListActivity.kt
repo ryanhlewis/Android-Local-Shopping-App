@@ -17,13 +17,12 @@ package com.example.dogglers
 
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-
+import androidx.appcompat.app.ActionBar
+import androidx.appcompat.app.AppCompatActivity
 import com.example.dogglers.adapter.DogCardAdapter
 import com.example.dogglers.const.Layout
 import com.example.dogglers.data.DataSource
-import com.example.dogglers.data.DataSource.products
 import com.example.dogglers.databinding.ActivityVerticalListBinding
 
 class VerticalListActivity : AppCompatActivity() {
@@ -34,6 +33,7 @@ class VerticalListActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityVerticalListBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
 
         // Set Item View
         DataSource.chosenArray = DataSource.products
